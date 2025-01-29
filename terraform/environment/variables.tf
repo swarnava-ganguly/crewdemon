@@ -60,7 +60,7 @@ variable config_path {
 
 variable config_context {
   type        = string
-  default     = "still-violet-23660725"
+  default     = "democluster"
   description = "Kube congif context"
 }
 
@@ -78,13 +78,13 @@ variable helm_release_namespace {
 
 variable helm_chart_directory {
   type        = string
-  default     = "/home/runner/work/crewmeister/crewmeister/helm" #/home/runner/work/crewmeister/crewmeister/helm
+  default     = "/home/runner/work/crewdemon/crewdemon/helm" #/home/runner/work/crewmeister/crewmeister/helm
   description = "Helm Directory"
 }
 
 variable helm_chart_values {
   type        = string
-  default     = "/home/runner/work/crewmeister/crewmeister/helm/values.yaml" #/home/runner/work/crewmeister/crewmeister/helm/values.yaml
+  default     = "/home/runner/work/crewdemon/crewdemon/helm/values.yaml" #/home/runner/work/crewmeister/crewmeister/helm/values.yaml
   description = "helm values file location" 
 }
 

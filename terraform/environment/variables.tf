@@ -60,7 +60,7 @@ variable config_path {
 
 variable config_context {
   type        = string
-  default     = "democluster"
+  default     = "still-violet-23660725"
   description = "Kube congif context"
 }
 
